@@ -1,0 +1,34 @@
+[
+    {"model": "service_management.servicecategorymodel", "pk": 1, "fields": {"name": "Injectables"}},
+    {"model": "service_management.servicecategorymodel", "pk": 2, "fields": {"name": "HA Dermal Filler"}},
+    {"model": "service_management.servicecategorymodel", "pk": 3, "fields": {"name": "Calcium Hydroxyapatite"}},
+    {"model": "service_management.servicecategorymodel", "pk": 4, "fields": {"name": "Hyaluronidase"}},
+    {"model": "service_management.servicecategorymodel", "pk": 5, "fields": {"name": "Polymethyl methacrylate (PMMA)"}},
+    {"model": "service_management.servicecategorymodel", "pk": 6, "fields": {"name": "Poly-L Lactic Acid"}},
+    {"model": "service_management.servicecategorymodel", "pk": 7, "fields": {"name": "Peels"}},
+    {"model": "service_management.servicecategorymodel", "pk": 8, "fields": {"name": "Fat Dissolving"}},
+    {"model": "service_management.servicecategorymodel", "pk": 9, "fields": {"name": "Sclerotherapy"}},
+    {"model": "service_management.servicecategorymodel", "pk": 10, "fields": {"name": "Threads"}},
+
+    {"model": "service_management.servicetypemodel", "pk": 1, "fields": {"name": "Neuromodulator", "category": 1}},
+    {"model": "service_management.servicetypemodel", "pk": 2, "fields": {"name": "Chemical Peel", "category": 7}},
+    {"model": "service_management.servicetypemodel", "pk": 3, "fields": {"name": "Deoxycholic Acid", "category": 8}},
+    {"model": "service_management.servicetypemodel", "pk": 4, "fields": {"name": "Sclerotherapy", "category": 9}},
+    {"model": "service_management.servicetypemodel", "pk": 5, "fields": {"name": "PDO Threads", "category": 10}},
+
+    {"model": "suppliers.suppliermodel", "pk": 1, "fields": {"name": "Allergan"}},
+    {"model": "suppliers.suppliermodel", "pk": 2, "fields": {"name": "Revance"}},
+    {"model": "suppliers.suppliermodel", "pk": 3, "fields": {"name": "Galderma"}},
+    {"model": "suppliers.suppliermodel", "pk": 4, "fields": {"name": "Evolus"}},
+    {"model": "suppliers.suppliermodel", "pk": 5, "fields": {"name": "Merz"}},
+    {"model": "suppliers.suppliermodel", "pk": 6, "fields": {"name": "Suneva"}},
+
+    {"model": "products.productmodel", "pk": 1, "fields": {"name": "Botox", "supplier": 1}},
+    {"model": "products.productmodel", "pk": 2, "fields": {"name": "Daxxify", "supplier": 2}},
+    {"model": "products.productmodel", "pk": 3, "fields": {"name": "Dysport", "supplier": 3}},
+    {"model": "products.productmodel", "pk": 4, "fields": {"name": "Jeuveau", "supplier": 4}},
+    {"model": "products.productmodel", "pk": 5, "fields": {"name": "Xeomin", "supplier": 5}},
+
+    {"model": "medspas.medspamodel", "pk": 1, "fields": { "name": "Medspa One", "address": "123 Main St", "phone_number": "123-456-7890", "email_address": "contact@medspaone.com"}},
+    {"model": "medspas.medspamodel", "pk": 2, "fields": { "name": "Medspa Two", "address": "456 Elm St", "phone_number": "987-654-3210", "email_address": "contact@medspatwo.com"}}
+]
