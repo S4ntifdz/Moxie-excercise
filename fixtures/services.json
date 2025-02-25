@@ -30,5 +30,7 @@
     {"model": "service_management.serviceproductmodel", "pk": 5, "fields": {"name": "Xeomin", "supplier": 5, "service_type": 1}},
 
     {"model": "medspas.medspamodel", "pk": 1, "fields": { "name": "Medspa One", "address": "123 Main St", "phone_number": "123-456-7890", "email_address": "contact@medspaone.com"}},
-    {"model": "medspas.medspamodel", "pk": 2, "fields": { "name": "Medspa Two", "address": "456 Elm St", "phone_number": "987-654-3210", "email_address": "contact@medspatwo.com"}}
+    {"model": "medspas.medspamodel", "pk": 2, "fields": { "name": "Medspa Two", "address": "456 Elm St", "phone_number": "987-654-3210", "email_address": "contact@medspatwo.com"}},
+
+    {"model": "config.configmodel", "pk": 1, "fields": {"enable_auth_token": true}}
 ]
