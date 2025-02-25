@@ -45,6 +45,8 @@ INSTALLED_APPS = [
     'medspas',
     'service_management',
     'suppliers',
+    'drf_yasg',
+
 ]
 
 MIDDLEWARE = [
