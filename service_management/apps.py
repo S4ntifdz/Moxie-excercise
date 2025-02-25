@@ -10,6 +10,7 @@ class ServiceManagementConfig(AppConfig):
             service_admin,
             service_category_admin,
             service_type_admin,
+            service_product_admin,
         )
         from service_management.models import (
             service_category_model,

@@ -23,11 +23,11 @@
     {"model": "suppliers.suppliermodel", "pk": 5, "fields": {"name": "Merz"}},
     {"model": "suppliers.suppliermodel", "pk": 6, "fields": {"name": "Suneva"}},
 
-    {"model": "products.productmodel", "pk": 1, "fields": {"name": "Botox", "supplier": 1}},
-    {"model": "products.productmodel", "pk": 2, "fields": {"name": "Daxxify", "supplier": 2}},
-    {"model": "products.productmodel", "pk": 3, "fields": {"name": "Dysport", "supplier": 3}},
-    {"model": "products.productmodel", "pk": 4, "fields": {"name": "Jeuveau", "supplier": 4}},
-    {"model": "products.productmodel", "pk": 5, "fields": {"name": "Xeomin", "supplier": 5}},
+    {"model": "service_management.serviceproductmodel", "pk": 1, "fields": {"name": "Botox", "supplier": 1, "service_type": 1}},
+    {"model": "service_management.serviceproductmodel", "pk": 2, "fields": {"name": "Daxxify", "supplier": 2, "service_type": 1}},
+    {"model": "service_management.serviceproductmodel", "pk": 3, "fields": {"name": "Dysport", "supplier": 3, "service_type": 1}},
+    {"model": "service_management.serviceproductmodel", "pk": 4, "fields": {"name": "Jeuveau", "supplier": 4, "service_type": 1}},
+    {"model": "service_management.serviceproductmodel", "pk": 5, "fields": {"name": "Xeomin", "supplier": 5, "service_type": 1}},
 
     {"model": "medspas.medspamodel", "pk": 1, "fields": { "name": "Medspa One", "address": "123 Main St", "phone_number": "123-456-7890", "email_address": "contact@medspaone.com"}},
     {"model": "medspas.medspamodel", "pk": 2, "fields": { "name": "Medspa Two", "address": "456 Elm St", "phone_number": "987-654-3210", "email_address": "contact@medspatwo.com"}}

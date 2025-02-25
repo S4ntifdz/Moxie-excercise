@@ -3,7 +3,7 @@ from service_management.models.service_model import ServiceModel
 
 @admin.register(ServiceModel)
 class ServiceAdmin(admin.ModelAdmin):
-    list_display = ['name', 'price', 'service_type', 'get_products', 'get_category']
+    list_display = ['name', 'price', 'get_products', 'get_category']
 
     def get_products(self, obj):
         return obj.get_products()
